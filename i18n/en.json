@@ -1,0 +1,86 @@
+{
+    "nav": {
+        "login": "Log in"
+    },
+    "hero": {
+        "title": "Generate Legal Documents Meeting Today's Standards",
+        "subtitle": "Harness the power of AI to create legal documents compliant with Polish law. Manage your law firm, legal entities, and collaborate with your team in one place.",
+        "cta": "Start for Free",
+        "ctaNote": "No credit card required • Trial available immediately"
+    },
+    "features": {
+        "title": "Features",
+        "subtitle": "Everything you need to manage your law firm",
+        "ai": {
+            "title": "AI Document Generation",
+            "description": "Create legal briefs, contracts, and applications in minutes with AI trained on Polish law"
+        },
+        "entities": {
+            "title": "Entity Management",
+            "description": "Store client data, companies, courts, and law firms in one place with full history"
+        },
+        "team": {
+            "title": "Team Collaboration",
+            "description": "Work with your team on cases, share documents, and manage permissions"
+        },
+        "compliance": {
+            "title": "Legal Compliance",
+            "description": "All documents comply with current Polish law regulations and case law"
+        }
+    },
+    "benefits": {
+        "title": "Why LexAI?",
+        "time": {
+            "title": "Time Savings",
+            "description": "Reduce document creation time from hours to minutes. More time for clients and cases."
+        },
+        "accuracy": {
+            "title": "Precision and Compliance",
+            "description": "AI trained on Polish law ensures compliance with current regulations."
+        },
+        "collaboration": {
+            "title": "Easy Collaboration",
+            "description": "Team works together in real-time. No version conflicts."
+        },
+        "cost": {
+            "title": "Cost-Effective",
+            "description": "Reduce operational costs and increase law firm productivity."
+        }
+    },
+    "howItWorks": {
+        "title": "How It Works?",
+        "step1": {
+            "title": "Describe the Case",
+            "description": "Enter basic case information and select document type"
+        },
+        "step2": {
+            "title": "AI Generates Document",
+            "description": "System analyzes the case and creates a legally compliant document"
+        },
+        "step3": {
+            "title": "Edit and Download",
+            "description": "Customize the document to your needs and download in PDF format"
+        }
+    },
+    "cta": {
+        "title": "Ready to revolutionize your law firm?",
+        "subtitle": "Join law firms already using LexAI",
+        "button": "Start for Free"
+    },
+    "footer": {
+        "description": "AI-powered legal document generation for Polish law firms",
+        "product": "Product",
+        "features": "Features",
+        "pricing": "Pricing",
+        "demo": "Demo",
+        "company": "Company",
+        "about": "About",
+        "contact": "Contact",
+        "blog": "Blog",
+        "legal": "Legal",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "cookies": "Cookies",
+        "rights": "All rights reserved."
+    }
+}

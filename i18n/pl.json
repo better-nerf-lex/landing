@@ -1,0 +1,86 @@
+{
+    "nav": {
+        "login": "Zaloguj się"
+    },
+    "hero": {
+        "title": "Generuj pisma i podania zgodne ze standardem dzisiajszych czasów",
+        "subtitle": "Wykorzystaj moc AI do tworzenia dokumentów prawnych zgodnych z polskim prawem. Zarządzaj kancelarią, podmiotami prawnymi i współpracuj z zespołem w jednym miejscu.",
+        "cta": "Rozpocznij za darmo",
+        "ctaNote": "Bez karty kredytowej • Wersja próbna dostępna od razu"
+    },
+    "features": {
+        "title": "Funkcje",
+        "subtitle": "Wszystko czego potrzebujesz do zarządzania kancelarią prawną",
+        "ai": {
+            "title": "Generowanie dokumentów AI",
+            "description": "Twórz pisma procesowe, umowy i podania w kilka minut dzięki AI wytrenowanemu na polskim prawie"
+        },
+        "entities": {
+            "title": "Zarządzanie podmiotami",
+            "description": "Przechowuj dane klientów, firm, sądów i kancelarii w jednym miejscu z pełną historią"
+        },
+        "team": {
+            "title": "Współpraca zespołowa",
+            "description": "Pracuj z zespołem nad sprawami, dziel się dokumentami i zarządzaj uprawnieniami"
+        },
+        "compliance": {
+            "title": "Zgodność z prawem",
+            "description": "Wszystkie dokumenty zgodne z aktualnymi przepisami polskiego prawa i orzecznictwem"
+        }
+    },
+    "benefits": {
+        "title": "Dlaczego LexAI?",
+        "time": {
+            "title": "Oszczędność czasu",
+            "description": "Skróć czas tworzenia dokumentów z godzin do minut. Więcej czasu na klientów i sprawy."
+        },
+        "accuracy": {
+            "title": "Precyzja i zgodność",
+            "description": "AI wytrenowane na polskim prawie zapewnia zgodność z aktualnymi przepisami."
+        },
+        "collaboration": {
+            "title": "Łatwa współpraca",
+            "description": "Zespół pracuje razem w czasie rzeczywistym. Żadnych konfliktów wersji."
+        },
+        "cost": {
+            "title": "Opłacalność",
+            "description": "Zredukuj koszty operacyjne i zwiększ produktywność kancelarii."
+        }
+    },
+    "howItWorks": {
+        "title": "Jak to działa?",
+        "step1": {
+            "title": "Opisz sprawę",
+            "description": "Wprowadź podstawowe informacje o sprawie i wybierz typ dokumentu"
+        },
+        "step2": {
+            "title": "AI generuje dokument",
+            "description": "System analizuje sprawę i tworzy dokument zgodny z prawem"
+        },
+        "step3": {
+            "title": "Edytuj i pobierz",
+            "description": "Dostosuj dokument do swoich potrzeb i pobierz w formacie PDF"
+        }
+    },
+    "cta": {
+        "title": "Gotowy na rewolucję w swojej kancelarii?",
+        "subtitle": "Dołącz do kancelarii, które już korzystają z LexAI",
+        "button": "Rozpocznij za darmo"
+    },
+    "footer": {
+        "description": "AI-powered legal document generation for Polish law firms",
+        "product": "Produkt",
+        "features": "Funkcje",
+        "pricing": "Cennik",
+        "demo": "Demo",
+        "company": "Firma",
+        "about": "O nas",
+        "contact": "Kontakt",
+        "blog": "Blog",
+        "legal": "Prawne",
+        "privacy": "Polityka prywatności",
+        "terms": "Regulamin",
+        "cookies": "Cookies",
+        "rights": "Wszelkie prawa zastrzeżone."
+    }
+}

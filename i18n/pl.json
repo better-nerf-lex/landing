@@ -82,5 +82,61 @@
         "terms": "Regulamin",
         "cookies": "Cookies",
         "rights": "Wszelkie prawa zastrzeżone."
+    },
+    "about": {
+        "title": "O nas",
+        "mission": {
+            "title": "Nasza misja",
+            "text": "W LexAI naszą misją jest wspieranie prawników za pomocą najnowocześniejszej technologii AI. Dążymy do automatyzacji rutynowych zadań prawnych, pozwalając prawnikom skupić się na tym, co najważniejsze: zapewnianiu wyjątkowej pomocy prawnej i osiąganiu sprawiedliwości dla swoich klientów."
+        },
+        "founders": {
+            "title": "Poznaj naszych założycieli",
+            "f1": {
+                "name": "Jan Kowalski",
+                "title": "CEO i Strategia Prawna",
+                "bio": "Były procesualista z 15-letnim doświadczeniem w polskim prawie. Jan założył LexAI, aby rozwiązać problemy z nieefektywnością, których sam doświadczył podczas sporządzania dokumentów prawnych."
+            },
+            "f2": {
+                "name": "Anna Nowak",
+                "title": "CTO i Architektura AI",
+                "bio": "Ekspertka w dziedzinie Przetwarzania Języka Naturalnego z doktoratem z informatyki. Anna kieruje rozwojem technicznym naszych wyspecjalizowanych modeli AI dla prawa."
+            }
+        }
+    },
+    "contact": {
+        "title": "Kontakt",
+        "info": {
+            "title": "Skontaktuj się z nami",
+            "email": "kontakt@lexai.pl",
+            "phone": "+48 123 456 789",
+            "address": "ul. Wiejska 4/6, 00-902 Warszawa, Polska"
+        }
+    },
+    "plans": {
+        "title": "Prosty cennik",
+        "subtitle": "Wybierz plan dopasowany do potrzeb Twojej kancelarii",
+        "free": {
+            "name": "Darmowy",
+            "tokens": "2 tokeny / miesiąc",
+            "storage": "50 MB miejsca",
+            "price": "0 PLN"
+        },
+        "solo": {
+            "name": "Solo",
+            "tokens": "20 tokenów / miesiąc",
+            "storage": "1 GB miejsca",
+            "price": "99 PLN / miesiąc"
+        },
+        "pro": {
+            "name": "Pro",
+            "tokens": "100 tokenów / miesiąc",
+            "storage": "5 GB miejsca",
+            "price": "399 PLN / miesiąc"
+        },
+        "buyTokens": {
+            "title": "Potrzebujesz więcej?",
+            "description": "Kup dodatkowe tokeny, kiedy tylko ich potrzebujesz.",
+            "button": "Kup pakiet 10 tokenów"
+        }
     }
 }

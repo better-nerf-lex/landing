@@ -82,5 +82,61 @@
         "terms": "Terms of Service",
         "cookies": "Cookies",
         "rights": "All rights reserved."
+    },
+    "about": {
+        "title": "About Us",
+        "mission": {
+            "title": "Our Mission",
+            "text": "At LexAI, our mission is to empower legal professionals with cutting-edge AI technology. We strive to automate routine legal tasks, allowing lawyers to focus on what matters most: providing exceptional legal counsel and achieving justice for their clients."
+        },
+        "founders": {
+            "title": "Meet Our Founders",
+            "f1": {
+                "name": "Jan Kowalski",
+                "title": "CEO & Legal Strategy",
+                "bio": "A former litigator with 15 years of experience in Polish law. Jan founded LexAI to solve the inefficiencies he experienced first-hand in legal document drafting."
+            },
+            "f2": {
+                "name": "Anna Nowak",
+                "title": "CTO & AI Architecture",
+                "bio": "An expert in Natural Language Processing with a PhD in Computer Science. Anna leads the technical development of our specialized legal AI models."
+            }
+        }
+    },
+    "contact": {
+        "title": "Contact Us",
+        "info": {
+            "title": "Get in Touch",
+            "email": "contact@lexai.pl",
+            "phone": "+48 123 456 789",
+            "address": "ul. Wiejska 4/6, 00-902 Warsaw, Poland"
+        }
+    },
+    "plans": {
+        "title": "Simple Pricing",
+        "subtitle": "Choose the plan that fits your firm's needs",
+        "free": {
+            "name": "Free",
+            "tokens": "2 tokens / month",
+            "storage": "50 MB storage",
+            "price": "0 PLN"
+        },
+        "solo": {
+            "name": "Solo",
+            "tokens": "20 tokens / month",
+            "storage": "1 GB storage",
+            "price": "99 PLN / month"
+        },
+        "pro": {
+            "name": "Pro",
+            "tokens": "100 tokens / month",
+            "storage": "5 GB storage",
+            "price": "399 PLN / month"
+        },
+        "buyTokens": {
+            "title": "Need more?",
+            "description": "Purchase additional tokens whenever you need them.",
+            "button": "Buy 10 Tokens Pack"
+        }
     }
 }

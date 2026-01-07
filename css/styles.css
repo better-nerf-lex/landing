@@ -330,6 +330,16 @@ section {
     background-color: var(--bg-white);
 }
 
+.features-group-title {
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    margin-bottom: var(--spacing-lg);
+    color: var(--primary);
+    position: relative;
+    padding-left: var(--spacing-sm);
+    border-left: 4px solid var(--primary);
+}
+
 .features-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -776,11 +786,24 @@ section {
     padding: var(--spacing-2xl) 0;
 }
 
+.plans-category-title {
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    margin-bottom: var(--spacing-xl);
+    text-align: center;
+    color: var(--text-primary);
+}
+
 .pricing-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: var(--spacing-lg);
     margin-bottom: var(--spacing-3xl);
+}
+
+.pricing-grid.centered {
+    grid-template-columns: minmax(280px, 500px);
+    justify-content: center;
 }
 
 .pricing-card {
@@ -821,7 +844,13 @@ section {
 .plan-name {
     font-size: var(--font-size-xl);
     font-weight: 700;
-    margin-bottom: var(--spacing-sm);
+    margin-bottom: 0.25rem;
+}
+
+.plan-tagline {
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-md);
 }
 
 .plan-price {
@@ -849,6 +878,12 @@ section {
     content: "✓";
     color: #28a745;
     font-weight: bold;
+}
+
+.plan-features.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--spacing-sm);
 }
 
 .buy-tokens-section {

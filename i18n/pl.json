@@ -10,26 +10,56 @@
     },
     "features": {
         "title": "Funkcje",
-        "subtitle": "Wszystko czego potrzebujesz do zarządzania kancelarią prawną",
-        "ai": {
-            "title": "Generowanie dokumentów AI",
-            "description": "Twórz pisma procesowe, umowy i podania w kilka minut dzięki AI wytrenowanemu na polskim prawie"
+        "subtitle": "Wybierz rozwiązanie dopasowane do Twoich potrzeb",
+        "individuals": {
+            "title": "Dla Ciebie",
+            "guided": {
+                "title": "Inteligentne tworzenie",
+                "description": "Prowadzimy Cię za rękę przez proces tworzenia dokumentu, zadając kluczowe pytania."
+            },
+            "editor": {
+                "title": "Edycja na miejscu",
+                "description": "Edytuj wygenerowane pisma bezpośrednio w naszej przeglądarce bez dodatkowego oprogramowania."
+            },
+            "history": {
+                "title": "Historia dokumentów",
+                "description": "Pełny wgląd w historię Twoich dokumentów. Nigdy nie zgubisz wygenerowanego pisma."
+            },
+            "context": {
+                "title": "Kontekst z plików",
+                "description": "Dołącz własne pliki jako kontekst dla AI, aby dokument był jeszcze bardziej precyzyjny."
+            }
         },
-        "entities": {
-            "title": "Zarządzanie podmiotami",
-            "description": "Przechowuj dane klientów, firm, sądów i kancelarii w jednym miejscu z pełną historią"
-        },
-        "team": {
-            "title": "Współpraca zespołowa",
-            "description": "Pracuj z zespołem nad sprawami, dziel się dokumentami i zarządzaj uprawnieniami"
-        },
-        "compliance": {
-            "title": "Zgodność z prawem",
-            "description": "Wszystkie dokumenty zgodne z aktualnymi przepisami polskiego prawa i orzecznictwem"
+        "lawFirms": {
+            "title": "Dla Kancelarii",
+            "allInOne": {
+                "title": "Wszystko co dla osób prywatnych i więcej",
+                "description": "Pełna funkcjonalność platformy rozszerzona o narzędzia profesjonalne."
+            },
+            "cases": {
+                "title": "Zarządzanie sprawami",
+                "description": "Pełna kontrola nad sprawami: zdarzenia, sądy, adresy i terminy w jednym miejscu."
+            },
+            "data": {
+                "title": "Dane i Kontakty",
+                "description": "Zarządzaj bazą kontaktów i danych strukturalnych Twojej kancelarii bezpiecznie w chmurze."
+            },
+            "automation": {
+                "title": "Automatyzacja pism",
+                "description": "Masowe generowanie dokumentów i zaawansowane szablony dla Twojej kancelarii."
+            },
+            "team": {
+                "title": "Praca zespołowa",
+                "description": "Zarządzaj zespołami, podzespołami i współpracuj nad dokumentami w czasie rzeczywistym."
+            },
+            "clients": {
+                "title": "Integracja z klientem",
+                "description": "Udostępniaj postępy i dokumenty swoim klientom bezpośrednio przez platformę."
+            }
         }
     },
     "benefits": {
-        "title": "Dlaczego LexAI?",
+        "title": "Dlaczego Paragrafic?",
         "time": {
             "title": "Oszczędność czasu",
             "description": "Skróć czas tworzenia dokumentów z godzin do minut. Więcej czasu na klientów i sprawy."
@@ -64,7 +94,7 @@
     },
     "cta": {
         "title": "Gotowy na rewolucję w swojej kancelarii?",
-        "subtitle": "Dołącz do kancelarii, które już korzystają z LexAI",
+        "subtitle": "Dołącz do kancelarii, które już korzystają z Paragrafic",
         "button": "Rozpocznij za darmo"
     },
     "footer": {
@@ -87,14 +117,14 @@
         "title": "O nas",
         "mission": {
             "title": "Nasza misja",
-            "text": "W LexAI naszą misją jest wspieranie prawników za pomocą najnowocześniejszej technologii AI. Dążymy do automatyzacji rutynowych zadań prawnych, pozwalając prawnikom skupić się na tym, co najważniejsze: zapewnianiu wyjątkowej pomocy prawnej i osiąganiu sprawiedliwości dla swoich klientów."
+            "text": "W Paragrafic naszą misją jest wspieranie prawników za pomocą najnowocześniejszej technologii AI. Dążymy do automatyzacji rutynowych zadań prawnych, pozwalając prawnikom skupić się na tym, co najważniejsze: zapewnianiu wyjątkowej pomocy prawnej i osiąganiu sprawiedliwości dla swoich klientów."
         },
         "founders": {
             "title": "Poznaj naszych założycieli",
             "f1": {
                 "name": "Jan Kowalski",
                 "title": "CEO i Strategia Prawna",
-                "bio": "Były procesualista z 15-letnim doświadczeniem w polskim prawie. Jan założył LexAI, aby rozwiązać problemy z nieefektywnością, których sam doświadczył podczas sporządzania dokumentów prawnych."
+                "bio": "Były procesualista z 15-letnim doświadczeniem w polskim prawie. Jan założył Paragrafic, aby rozwiązać problemy z nieefektywnością, których sam doświadczył podczas sporządzania dokumentów prawnych."
             },
             "f2": {
                 "name": "Anna Nowak",
@@ -107,7 +137,7 @@
         "title": "Kontakt",
         "info": {
             "title": "Skontaktuj się z nami",
-            "email": "kontakt@lexai.pl",
+            "email": "kontakt@Paragrafic.pl",
             "phone": "+48 123 456 789",
             "address": "ul. Wiejska 4/6, 00-902 Warszawa, Polska"
         }
@@ -117,21 +147,36 @@
         "subtitle": "Wybierz plan dopasowany do potrzeb Twojej kancelarii",
         "free": {
             "name": "Darmowy",
+            "tagline": "Dla osób szukających szybkiej pomocy",
             "tokens": "2 tokeny / miesiąc",
             "storage": "50 MB miejsca",
             "price": "0 PLN"
         },
         "solo": {
             "name": "Solo",
+            "tagline": "Dla wymagających użytkowników",
             "tokens": "20 tokenów / miesiąc",
             "storage": "1 GB miejsca",
             "price": "99 PLN / miesiąc"
         },
         "pro": {
             "name": "Pro",
+            "tagline": "Pełna moc dla Twojej kancelarii",
             "tokens": "100 tokenów / miesiąc",
             "storage": "5 GB miejsca",
             "price": "399 PLN / miesiąc"
+        },
+        "features": {
+            "guided": "Inteligentny kreator",
+            "history": "Historia dokumentów",
+            "context": "Kontekst z plików",
+            "editor": "Zaawansowany edytor",
+            "cases": "Zarządzanie sprawami",
+            "automation": "Automatyzacja pism",
+            "team": "Praca zespołowa",
+            "clients": "Integracja z klientem",
+            "subteams": "Podzespoły",
+            "topups": "Korzystne doładowania"
         },
         "buyTokens": {
             "title": "Potrzebujesz więcej?",

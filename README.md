@@ -1,6 +1,6 @@
-# LexAI Landing Page
+# Paragrafic Landing Page
 
-SEO-optimized landing page for LexAI - AI-powered legal document generation platform for Polish law firms.
+SEO-optimized landing page for Paragrafic - AI-powered legal document generation platform for Polish law firms.
 
 ## Technology Stack
 
@@ -131,4 +131,4 @@ This is a static site and can be hosted on:
 
 ## License
 
-Copyright © 2026 LexAI. All rights reserved.
+Copyright © 2026 Paragrafic. All rights reserved.

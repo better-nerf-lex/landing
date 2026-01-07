@@ -10,26 +10,56 @@
     },
     "features": {
         "title": "Features",
-        "subtitle": "Everything you need to manage your law firm",
-        "ai": {
-            "title": "AI Document Generation",
-            "description": "Create legal briefs, contracts, and applications in minutes with AI trained on Polish law"
+        "subtitle": "Choose the solution that fits your needs",
+        "individuals": {
+            "title": "For Individuals",
+            "guided": {
+                "title": "Guided Creation",
+                "description": "We guide you through the document creation process, asking key questions."
+            },
+            "editor": {
+                "title": "On-site Editor",
+                "description": "Edit generated documents directly in your browser without extra software."
+            },
+            "history": {
+                "title": "Document History",
+                "description": "Full insight into your document history. Never lose a generated draft."
+            },
+            "context": {
+                "title": "File Context",
+                "description": "Attach your own files as context for the AI for even more precise results."
+            }
         },
-        "entities": {
-            "title": "Entity Management",
-            "description": "Store client data, companies, courts, and law firms in one place with full history"
-        },
-        "team": {
-            "title": "Team Collaboration",
-            "description": "Work with your team on cases, share documents, and manage permissions"
-        },
-        "compliance": {
-            "title": "Legal Compliance",
-            "description": "All documents comply with current Polish law regulations and case law"
+        "lawFirms": {
+            "title": "For Law Firms",
+            "allInOne": {
+                "title": "Everything for Individuals & More",
+                "description": "Full platform functionality expanded with professional legal tools."
+            },
+            "cases": {
+                "title": "Case Management",
+                "description": "Full control over cases: events, courts, addresses, and deadlines in one place."
+            },
+            "data": {
+                "title": "Data & Contacts",
+                "description": "Manage your contacts database and firm's structural data securely in the cloud."
+            },
+            "automation": {
+                "title": "Document Automation",
+                "description": "Bulk document generation and advanced templates for your firm."
+            },
+            "team": {
+                "title": "Team Collaboration",
+                "description": "Manage teams, sub-teams, and collaborate on documents in real-time."
+            },
+            "clients": {
+                "title": "Client Integration",
+                "description": "Share progress and documents with your clients directly through the platform."
+            }
         }
     },
     "benefits": {
-        "title": "Why LexAI?",
+        "title": "Why Paragrafic?",
         "time": {
             "title": "Time Savings",
             "description": "Reduce document creation time from hours to minutes. More time for clients and cases."
@@ -64,7 +94,7 @@
     },
     "cta": {
         "title": "Ready to revolutionize your law firm?",
-        "subtitle": "Join law firms already using LexAI",
+        "subtitle": "Join law firms already using Paragrafic",
         "button": "Start for Free"
     },
     "footer": {
@@ -87,14 +117,14 @@
         "title": "About Us",
         "mission": {
             "title": "Our Mission",
-            "text": "At LexAI, our mission is to empower legal professionals with cutting-edge AI technology. We strive to automate routine legal tasks, allowing lawyers to focus on what matters most: providing exceptional legal counsel and achieving justice for their clients."
+            "text": "At Paragrafic, our mission is to empower legal professionals with cutting-edge AI technology. We strive to automate routine legal tasks, allowing lawyers to focus on what matters most: providing exceptional legal counsel and achieving justice for their clients."
         },
         "founders": {
             "title": "Meet Our Founders",
             "f1": {
                 "name": "Jan Kowalski",
                 "title": "CEO & Legal Strategy",
-                "bio": "A former litigator with 15 years of experience in Polish law. Jan founded LexAI to solve the inefficiencies he experienced first-hand in legal document drafting."
+                "bio": "A former litigator with 15 years of experience in Polish law. Jan founded Paragrafic to solve the inefficiencies he experienced first-hand in legal document drafting."
             },
             "f2": {
                 "name": "Anna Nowak",
@@ -107,7 +137,7 @@
         "title": "Contact Us",
         "info": {
             "title": "Get in Touch",
-            "email": "contact@lexai.pl",
+            "email": "contact@Paragrafic.pl",
             "phone": "+48 123 456 789",
             "address": "ul. Wiejska 4/6, 00-902 Warsaw, Poland"
         }
@@ -117,21 +147,36 @@
         "subtitle": "Choose the plan that fits your firm's needs",
         "free": {
             "name": "Free",
+            "tagline": "For those seeking quick assistance",
             "tokens": "2 tokens / month",
             "storage": "50 MB storage",
             "price": "0 PLN"
         },
         "solo": {
             "name": "Solo",
+            "tagline": "For demanding individual users",
             "tokens": "20 tokens / month",
             "storage": "1 GB storage",
             "price": "99 PLN / month"
         },
         "pro": {
             "name": "Pro",
+            "tagline": "Full power for your law firm",
             "tokens": "100 tokens / month",
             "storage": "5 GB storage",
             "price": "399 PLN / month"
+        },
+        "features": {
+            "guided": "Guided Creator",
+            "history": "Document History",
+            "context": "File Context",
+            "editor": "Advanced Editor",
+            "cases": "Case Management",
+            "automation": "Doc Automation",
+            "team": "Team Collaboration",
+            "clients": "Client Integration",
+            "subteams": "Sub-teams",
+            "topups": "Generous Top-ups"
         },
         "buyTokens": {
             "title": "Need more?",

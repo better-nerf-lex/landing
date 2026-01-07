@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-i18n="plans.title">Cennik - LexAI</title>
+    <title data-i18n="plans.title">Cennik - Paragrafic</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
 </head>
@@ -13,14 +13,14 @@
         <nav class="nav container">
             <div class="nav-logo">
                 <a href="index.html" style="display: flex; align-items: center; gap: var(--spacing-xs);">
-                    <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-label="LexAI Logo">
+                    <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-label="Paragrafic Logo">
                         <g fill="none" fillRule="evenodd">
                             <path d="M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z" fill="#FFF"/>
                             <path d="M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z" fill="#555AB9"/>
                             <path d="M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z" fill="#91BAF8"/>
                         </g>
                     </svg>
-                    <span class="nav-logo-text">LexAI</span>
+                    <span class="nav-logo-text">Paragrafic</span>
                 </a>
             </div>
 
@@ -52,14 +52,18 @@
     <!-- Pricing Section -->
     <section class="plans-section">
         <div class="container">
+            <h2 class="plans-category-title" data-i18n="features.individuals.title">Dla Ciebie</h2>
             <div class="pricing-grid">
                 <!-- Free Plan -->
                 <div class="pricing-card">
                     <h3 class="plan-name" data-i18n="plans.free.name">Darmowy</h3>
+                    <p class="plan-tagline" data-i18n="plans.free.tagline">Dla osób szukających szybkiej pomocy</p>
                     <div class="plan-price" data-i18n="plans.free.price">0 PLN</div>
                     <ul class="plan-features">
                         <li data-i18n="plans.free.tokens">2 tokeny / miesiąc</li>
                         <li data-i18n="plans.free.storage">50 MB miejsca</li>
+                        <li data-i18n="plans.features.guided">Inteligentny kreator</li>
+                        <li data-i18n="plans.features.history">Historia dokumentów</li>
                     </ul>
                     <a href="http://localhost:8080" class="btn btn-outline" data-i18n="hero.cta">Rozpocznij za darmo</a>
                 </div>
@@ -68,21 +72,34 @@
                 <div class="pricing-card featured">
                     <div class="featured-badge">Most Popular</div>
                     <h3 class="plan-name" data-i18n="plans.solo.name">Solo</h3>
+                    <p class="plan-tagline" data-i18n="plans.solo.tagline">Dla wymagających użytkowników</p>
                     <div class="plan-price" data-i18n="plans.solo.price">99 PLN / miesiąc</div>
                     <ul class="plan-features">
                         <li data-i18n="plans.solo.tokens">20 tokenów / miesiąc</li>
                         <li data-i18n="plans.solo.storage">1 GB miejsca</li>
+                        <li data-i18n="plans.features.context">Kontekst z plików</li>
+                        <li data-i18n="plans.features.editor">Zaawansowany edytor</li>
                     </ul>
                     <a href="http://localhost:8080" class="btn btn-primary" data-i18n="hero.cta">Rozpocznij teraz</a>
                 </div>
+            </div>
 
+            <h2 class="plans-category-title" style="margin-top: var(--spacing-3xl);" data-i18n="features.lawFirms.title">Dla Kancelarii</h2>
+            <div class="pricing-grid centered">
                 <!-- Pro Plan -->
                 <div class="pricing-card">
                     <h3 class="plan-name" data-i18n="plans.pro.name">Pro</h3>
+                    <p class="plan-tagline" data-i18n="plans.pro.tagline">Pełna moc dla Twojej kancelarii</p>
                     <div class="plan-price" data-i18n="plans.pro.price">399 PLN / miesiąc</div>
-                    <ul class="plan-features">
+                    <ul class="plan-features grid-2">
                         <li data-i18n="plans.pro.tokens">100 tokenów / miesiąc</li>
                         <li data-i18n="plans.pro.storage">5 GB miejsca</li>
+                        <li data-i18n="plans.features.cases">Zarządzanie sprawami</li>
+                        <li data-i18n="plans.features.automation">Automatyzacja pism</li>
+                        <li data-i18n="plans.features.team">Praca zespołowa</li>
+                        <li data-i18n="plans.features.clients">Integracja z klientem</li>
+                        <li data-i18n="plans.features.subteams">Podzespoły</li>
+                        <li data-i18n="plans.features.topups">Korzystne doładowania</li>
                     </ul>
                     <a href="http://localhost:8080" class="btn btn-outline" data-i18n="hero.cta">Rozpocznij teraz</a>
                 </div>
@@ -112,7 +129,7 @@
                                 <path d="M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z" fill="#91BAF8"/>
                             </g>
                         </svg>
-                        <span>LexAI</span>
+                        <span>Paragrafic</span>
                     </div>
                     <p class="footer-description" data-i18n="footer.description">
                         AI-powered legal document generation for Polish law firms
@@ -151,7 +168,7 @@
 
             <div class="footer-bottom">
                 <p class="footer-copyright">
-                    &copy; <span id="current-year">2026</span> LexAI. <span data-i18n="footer.rights">Wszelkie prawa zastrzeżone.</span>
+                    &copy; <span id="current-year">2026</span> Paragrafic. <span data-i18n="footer.rights">Wszelkie prawa zastrzeżone.</span>
                 </p>
             </div>
         </div>
